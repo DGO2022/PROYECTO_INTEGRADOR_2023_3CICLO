@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/*la parte incial superior*/
+header{
+  width: 100%;
+  height: 110px;
+  background-color: rgb(2, 2, 130);
+  color: white;
+}
+#logoupeu{
+  width: 220px;
+  height: 90px;
+  margin-top: 5px;
+}
+/*parte principal*/
+main{
+  width: 100%;
+  height: 905px;
+  display: flex;
+  
+}
+#nav{
+  width: 15%;
+  height: 910px;
+  background-color:rgb(2, 2, 130);
+  color: white; 
+  
+}
+.estilomenu{
+  width: 100%;
+  height: 50px;
+}
+p{
+  font-size: 20px;
+  margin-left: auto;
+  width:150px;
+  height: 50px;
+  cursor: pointer;
+  align-content: centers;
+}
+#main1{
+  width: 85%;
+  height: 910px;
+  background-color: white;
+
+
+}
+header p{
+  font-size: 40px;
+  margin-right: 200px;
+  margin-top: -70px;
+  width: 800px;
+  height: 100px;
+}
+/*estilo de busqueda*/
+#busqueda{
+  width: 99.5%;
+  height: 40px;
+  margin: 5px;
+  display: flex;
+}
+#busquedainter{
+    margin-top:4px;
+    margin-left: 4px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid grey clear;
+    background-color: #e7e7e7;  
+    border-radius: 5px;
+}
+#desplegarfiltro{
+  width: 200px;
+  height: 33px;
+  margin-left: 16px;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: 1px solid grey clear;
+}
+
+/*estilo de actividades*/
+#actividades{
+  width: 99.5%;
+  height: 300px;
+  margin: 5px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   /*gap: sirve para la separacion a todo*/
+}
+.child{
+  height: 300px;
+  width: 300px;
+  background-color: cornflowerblue;
+  text-align: center;
+  line-height: 100px;
+  margin-right: 10px;
+}
+/*estilo de publicidad*/
+#publicidad{
+  width: 99.5%;
+  height: 250px;
+  margin: 5px;
+  background-color: grey;
+  font-size: 100px;color: white;
+}
+i{
+  cursor: pointer;
+  grid-column: auto;
+}
+
+  
+/*estilo de lista*/
+#lista{
+  width: 99.5%;
+  height: 300px;
+  margin: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 1px;
+  text-align: left;
+}
+#checkaños{
+  display: flex;
+  flex-direction: column;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+/*el foother*/
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: red;
+  margin-top: 10px;
+}
+
+
+
+
+
